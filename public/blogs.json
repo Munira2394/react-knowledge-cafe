@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "cover_photo": "https://i.ibb.co/Jc0tBWx/9874283-4294605.jpg",
+    "title": "The Enigmatic Universe",
+    "author": "Alice Johnson",
+    "author_img": "https://i.ibb.co/B4S1x2P/cartoon-character-with-yellow-jacket-sunglasses.jpg",
+    "posted_date": "2024-01-08T10:15:00Z",
+    "reading_time_minutes": 15,
+    "hashtags": ["Space", "Cosmos", "Mystery"]
+  },
+  {
+    "id": 2,
+    "cover_photo": "https://i.ibb.co/ZdgxB5H/31827407-7884137.jpg",
+    "title": "Tech Trends: A Glimpse into the Future",
+    "author": "Bob Anderson",
+    "author_img": "https://i.ibb.co/y0R0RR5/50955.jpg",
+    "posted_date": "2024-01-08T11:30:00Z",
+    "reading_time_minutes": 12,
+    "hashtags": ["Technology", "Innovation", "Future"]
+  },
+  {
+    "id": 3,
+    "cover_photo": "https://i.ibb.co/YQBLYk5/23739880-travel-facebook-cover-banner-22.jpg",
+    "title": "Culinary Adventures: Tasting the Unknown",
+    "author": "Eva Martinez",
+    "author_img": "https://i.ibb.co/JjD1rRk/27470346-7294811.jpg",
+    "posted_date": "2024-01-08T13:45:00Z",
+    "reading_time_minutes": 20,
+    "hashtags": ["Foodie", "Cuisine", "Exploration"]
+  },
+  {
+    "id": 4,
+    "cover_photo": "https://i.ibb.co/x37qMs5/12894905-265-digital-marketing-facebook-cover-page-template.jpg",
+    "title": "Mindfulness Meditation: Finding Inner Peace",
+    "author": "David Wilson",
+    "author_img": "https://i.ibb.co/1JskWs3/27470336-7294793.jpg",
+    "posted_date": "2024-01-08T15:00:00Z",
+    "reading_time_minutes": 18,
+    "hashtags": ["Mindfulness", "Meditation", "InnerPeace"]
+  },
+  {
+    "id": 5,
+    "cover_photo": "https://i.ibb.co/YZPwbRR/21074516-6407844.jpg",
+    "title": "Travel Diaries: A Journey Across Continents",
+    "author": "Sophie Lee",
+    "author_img": "https://i.ibb.co/qd7PFcR/27470334-7309681.jpg",
+    "posted_date": "2024-01-08T16:15:00Z",
+    "reading_time_minutes": 25,
+    "hashtags": ["Travel", "Adventure", "Explore"]
+  },
+  {
+    "id": 6,
+    "cover_photo": "https://i.ibb.co/JvYNyrj/18894952-6055074.jpg",
+    "title": "Fitness Fusion: Blending Workouts for Results",
+    "author": "Jake Miller",
+    "author_img": "https://i.ibb.co/CVSHW9L/6769264-60111.jpg",
+    "posted_date": "2024-01-08T17:30:00Z",
+    "reading_time_minutes": 15,
+    "hashtags": ["Fitness", "Workout", "Health"]
+  }
+]
