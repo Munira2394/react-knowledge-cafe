@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
+import { IoBookmarksOutline } from "react-icons/io5";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleBookMark }) => {
   const {
     cover_photo,
     title,
@@ -15,7 +16,7 @@ const Blog = ({ blog }) => {
       <img
         src={cover_photo}
         alt={`image of ${title}`}
-        className="w-[70%] mb-3"
+        className="w-full mb-3"
       ></img>
       <div className="flex justify-between">
         <div className="flex">
@@ -30,7 +31,15 @@ const Blog = ({ blog }) => {
           </div>
         </div>
         {/* <h3 className="flex-1">{reading_time_minutes} min read</h3> */}
-        <span>{reading_time_minutes} min read</span>
+        <div>
+          <span>{reading_time_minutes} min read</span>
+          <button
+            className="ml-2 text-xl text-blue-600"
+            onClick={() => handleBookMark(blog)}
+          >
+            <IoBookmarksOutline></IoBookmarksOutline>
+          </button>
+        </div>
       </div>
       <h2 className="text-3xl mt-1 pb-2">{title}</h2>
       <p>
@@ -43,5 +52,6 @@ const Blog = ({ blog }) => {
 };
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  handleBookMark: PropTypes.func,
 };
 export default Blog;
